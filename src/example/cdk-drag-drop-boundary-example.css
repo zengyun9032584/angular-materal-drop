@@ -1,0 +1,30 @@
+.example-box {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: move;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  margin-right: 25px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.example-boundary {
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  display: flex;
+  max-width: 100%;
+  border: dotted #ccc 2px;
+  overflow-y: auto;
+}
